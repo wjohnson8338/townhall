@@ -9,6 +9,23 @@ header img {
 	float: left;
 }
 
+header h2 {
+	font-size: 170%;
+	color: #800000;
+	text-indent: 30%
+}
+
+header h3 {
+	font-size: 130%;
+	font-style: italic;
+	text-indent: 30%;
+}
+
+.shadow {
+	text-shadow: 2px 2px 3px #800000
+}
+
+
 /* the styles for the main content */
 main {
 	clear: left;
