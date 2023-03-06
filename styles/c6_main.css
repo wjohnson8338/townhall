@@ -53,12 +53,9 @@ header img {
 	text-shadow: 2px 2px 2px #800000;
 }
 /* the styles for the main content */
-
-main h1 {
-	font-size: 150%;
-	padding: .3em 0;
-    border-top: 3px solid #931420;
-    border-bottom: 3px solid #931420;
+main {
+	padding-left: 0px;
+	padding-right: 0px;
 }
 main h2 {
 	color: #800000;
@@ -104,6 +101,7 @@ article h3 {
 
 aside {
 	width: 215px;
+	float: right;
 	padding-left: 20px;
 	padding-bottom: 20px;
 }
@@ -124,4 +122,5 @@ footer p {
 	text-align: center;
 	color: white;
 	padding: 1em 0;
+	clear: both;
 }
