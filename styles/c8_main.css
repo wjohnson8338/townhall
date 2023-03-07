@@ -206,8 +206,13 @@ footer p {
     }
 }
 
+
 @media only screen and (max-width: 414px) {
     body { font-size: 90%; }
+    main aside div {
+        column-count: 2;
+    }
+    
 }
 @media only screen and (max-width: 734px) {
     section h1 {
